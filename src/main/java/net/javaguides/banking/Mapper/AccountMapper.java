@@ -16,6 +16,7 @@ public class AccountMapper {
         );
     }
 
+    //Entity to DTO
     public static AccountDto mapToAccountDto(Account account) {
         if (account == null) {
             return null;
